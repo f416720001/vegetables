@@ -28,6 +28,7 @@ header .icons, header .btns, .longbox li {
 }
 
 #title {
+  line-height: 42px;
   padding: 0px;
   margin: 0px;
   font: 44px/1 "Arial Black";
@@ -45,11 +46,13 @@ header .icons, header .btns, .longbox li {
 }
 
 #icon_fb {
+  display: inline-block;;
   height: 25px;
   margin-right: 10px;
 }
 
 #icon_ig {
+  display: inline-block;;
   height: 25px;
   padding-right: 10px;
 }
@@ -102,6 +105,7 @@ ul {
 }
 
 .longbox li a {
+  line-height: 16px;
   display: block;
   padding: 16px 30px;
   font-size: 16px;
@@ -120,6 +124,7 @@ main {
 }
 
 h2 {
+  line-height: 16px;
   font-family: "Arial Black";
   font-size: 16px;
   color: #EDF2C5;
@@ -127,14 +132,22 @@ h2 {
   padding: 0px;
 }
 
+#main-area h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#side-area h2 {
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+
 .shortbox {
   background-color: #758A50;
   border: 1px solid #758A50;
   border-radius: 3px;
   padding-left: 30px;
-  padding-right: 30px;
   margin-bottom: 15px;
-  line-height: 45px;
 }
 
 #main-area, #side-area {
@@ -209,5 +222,10 @@ footer {
   padding: 24px 0 25px;
   font-size: 12px;
   background: #778A50;
+}
+
+footer p {
+  display: inline-block;
+  margin: 0px;
 }
 /*                    FOOTER                    */
