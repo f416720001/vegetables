@@ -215,16 +215,17 @@ h2 {
 
 /*                    FOOTER                    */
 footer {
+  min-width: 1260px;             /*settin min for mobile display under control*/
   font-family: ArialMT Regular;
   margin-top: 35px;
-  color: #EDF2C5;
-  text-align: center;
   padding: 24px 0 25px;
-  font-size: 12px;
-  background: #778A50;
+  background-color: #778A50;
+  text-align: center;
 }
 
 footer p {
+  font-size: 12px;
+  color: #EDF2C5;
   display: inline-block;
   margin: 0px;
 }
